@@ -16,8 +16,96 @@
     <link href="css/layout.css" rel="stylesheet" type="text/css">
 
 </head>
-<!-- 导航栏 header -->
-<div class="header_Div"></div>
+<div class="header_Div">
+    <div class="top_Div bg-light w-100 py-1 py-md-0 fixed-top1">
+        <div class="container d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+                <b class="userlevel_min">
+                    <em class="jzuan"></em>
+                </b>
+                <span class="mx-1 text-c6">金钻VIP</span>
+                <span class="mx-1 text-c6">第 3 年</span>
+            </div>
+            <div class="top_Div_right d-flex align-items-center">
+                <a href="javascript:void(0)" class="py-1">
+                    <span class="iconfont icon-select text-secondary ml-4"></span>
+                    <div class="search_div  bg-ce1 p-2 rounded clearfix">
+                        <input class="mr-1 float-left border-0 w-50 h-100 pl-2" type="text" placeholder="输入要搜索的关键字">
+                        <button class="btn btn-outline bg-primary1 text-white rounded-0 mr-1 float-left">搜店铺</button>
+                        <button class="btn btn-outline bg-primary1 text-white rounded-0 mr-1 float-left">搜全站</button>
+                    </div>
+                </a>
+                <a href="javascript:void(0)">
+                    <span class="iconfont icon-erweima text-secondary ml-4 d-none d-lg-inline-block"
+                        style="font-size:1.3rem"></span>
+                    <img src="images/big_code.jpg" alt="" class="erwei_img">
+                </a>
+            </div>
+        </div>
+    </div>
+    <header class="nav_Div container bg-white fixed-top2">
+        <nav class="navbar navbar-expand-md navbar-light row justify-content-between pb-0 pt-0">
+            <div class="col-11 col-md-4 pl-0 pl-md-1">
+                <h4 class="text-truncate font-weight-bold">
+                    河北中野绣花机有限责任有限公司
+                </h4>
+            </div>
+            <div class="col-1 col-md-8 pr-0 pr-md-2">
+                <button class="navbar-toggler pull-right d-flex align-items-center border-0 d-block d-md-none px-0"
+                    data-toggle="collapse" data-target="#navbarNav">
+                    <span class="iconfont icon-nav navbar-toggler-iconnavbar-toggler-icon fontS22 text-primary1"></span>
+                </button>
+                <div class="collapse navbar-collapse pull-right" id="navbarNav">
+                    <ul class="navbar-nav bg-white">
+                        <li class="nav-item">
+                            <a href="index.html"
+                                class="nav-link pl-3 pl-md-2 text-left text-md-center mx-none mx-md-1 active"><span
+                                    class="iconfont icon-shouye text-primary1 pr-2 fontS14 d-md-none"></span>首页</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="nav-link dropdown-toggle pl-3 pl-md-2 text-left text-md-center mx-none mx-md-1"
+                                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <span class="iconfont icon-gq_icon text-primary1 pr-2 fontS14 d-md-none"></span>供求信息
+                            </div>
+                            <div class="dropdown-menu mt-0 rounded-0" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-left text-md-center pl-4 pl-md-0 px-0 fontS14"
+                                    href="gq_infor.html" target="_blank">供应信息</a>
+                                <a class="dropdown-item text-left text-md-center pl-4 pl-md-0 px-0 fontS14"
+                                    href="gq_infor.html" target="_blank">求购信息</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html"
+                                class="nav-link pl-3 pl-md-2 text-left text-md-center mx-none mx-md-1"><span
+                                    class="iconfont icon-jianjie text-primary1 pr-2 fontS14 d-md-none"></span>公司简介</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="newlist.html"
+                                class="nav-link pl-3 pl-md-2 text-left text-md-center mx-none mx-md-1"><span
+                                    class="iconfont icon-dongtai text-primary1 pr-2 fontS14 d-md-none"></span>公司动态</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="honor.html"
+                                class="nav-link pl-3 pl-md-2 text-left text-md-center mx-none mx-md-1"><span
+                                    class="iconfont icon-zizhi text-primary1 pr-2 fontS14 d-md-none"></span>资质认证</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="message.html"
+                                class="nav-link pl-3 pl-md-2 text-left text-md-center mx-none mx-md-1"><span
+                                    class="iconfont icon-liuyan2 text-primary1 pr-2 fontS14 d-md-none"></span>在线留言</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html"
+                                class="nav-link pl-3 pl-md-2 text-left text-md-center mx-none mx-md-1"><span
+                                    class="iconfont icon-tel2 text-primary1 pr-2 fontS14 d-md-none"></span>联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</div>
 <!-- 导航遮罩 -->
 <div class="show_bg dis-n"></div>
 <!-- 主体大头部 title -->
@@ -97,11 +185,123 @@
     </div>
 </div>
 <!-- 精品推荐 -->
-<div class="recommend_Div container border-info shadow py-2"></div>
+<div class="recommend_Div container border-info shadow py-2">
+    <div class="jp_tuijian_title pl-4 my-3 fontS18">精品推荐</div>
+    <div class="row px-2">
+        <div class="card border-0 col-6 col-sm-4 col-md-3 p-l-sm col-zdlg-2-5 mb-2">
+            <img class="card-img-top rounded-0" src="http://pic.huishoushang.com/product/2011/4/21/201142115323088712.jpg"
+                alt="Card image cap">
+            <div class="card-body p-2">
+                <p class="card-text text-truncate">机回收绣花机市场本公收机回收绣花机市场本公绣花机市场本公绣花机市场本公收</p>
+            </div>
+        </div>
+        <div class="card border-0 col-6 col-sm-4 col-md-3 p-l-sm col-zdlg-2-5 mb-2">
+            <img class="card-img-top rounded-0" src="images/class7img.jpg" alt="Card image cap">
+            <div class="card-body p-2">
+                <p class="card-text text-truncate">机回收绣花机市场本公收机回收绣花机市场本公绣花机市场本公绣花机市场本公收</p>
+            </div>
+        </div>
+        <div class="card border-0 col-6 col-sm-4 col-md-3 p-l-sm col-zdlg-2-5 mb-2">
+            <img class="card-img-top rounded-0" src="images/class7img.jpg" alt="Card image cap">
+            <div class="card-body p-2">
+                <p class="card-text text-truncate">机回收绣花机市场本公收机回收绣花机市场本公绣花机市场本公绣花机市场本公收</p>
+            </div>
+        </div>
+        <div class="card border-0 col-6 col-sm-4 col-md-3 p-l-sm col-zdlg-2-5 mb-2">
+            <img class="card-img-top rounded-0" src="images/class7img.jpg" alt="Card image cap">
+            <div class="card-body p-2">
+                <p class="card-text text-truncate">机回收绣花机市场本公收机回收绣花机市场本公绣花机市场本公绣花机市场本公收</p>
+            </div>
+        </div>
+        <div class="card border-0 col-6 col-sm-4 col-md-3 p-l-sm col-zdlg-2-5 mb-2">
+            <img class="card-img-top rounded-0" src="images/class7img.jpg" alt="Card image cap">
+            <div class="card-body p-2">
+                <p class="card-text text-truncate">机回收绣花机市场本公收机回收绣花机市场本公绣花机市场本公绣花机市场本公收</p>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- 友情链接 link -->
-<div class="link_Div container py-4 d-none d-sm-none d-md-block"></div>
+<div class="link_Div container py-4 d-none d-sm-none d-md-block">
+    <div class="link_title position-relative" style="height: 3rem;">
+        <span class="fontS18">友情链接</span>
+        <span class="link_bgimg position-absolute">FRIENDSHIP
+            LINKS</span>
+    </div>
+    <div class="row">
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate py-2">铁甲二手二</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">凤凰新闻网</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">阿里巴巴官</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">铁甲二手二手二手二手二手二手</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">阿里巴巴官</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">凤凰新闻网凤凰新闻网</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">铁甲二手二手二手二手二手二手</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">阿里巴巴官</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">凤凰新闻网凤凰新闻网</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate py-2">铁甲二手二</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">凤凰新闻网</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">阿里巴巴官</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">铁甲二手二手二手二手二手二手</a>
+        <a href="#" class="col-md-3 col-zdlg-8 text-secondary text-truncate  py-2">阿里巴巴官</a>
+    </div>
+</div>
 <!-- 网页尾部foot -->
-<div class="foot_Div"></div>
+<div class="foot_Div">
+    <div class="text-center">
+        <p class="d-none d-sm-none d-md-block">
+            <a href="#" class="border-right px-2">
+                关于我们
+            </a>
+            <a href="#" class="border-right px-2">
+                企业资质
+            </a>
+            <a href="#" class="border-right px-2">
+                帮助中心
+            </a>
+            <a href="#" class="border-right px-2">
+                广告服务
+            </a>
+            <a href="#" class="border-right px-2">
+                会员服务
+            </a>
+            <a href="#" class="border-right px-2">
+                新手指南
+            </a>
+            <a href="#" class="border-right px-2">
+                网站地图
+            </a>
+            <a href="#" class="border-right px-2">
+                支付方式
+            </a>
+            <a href="#" class="border-right px-2">
+                意见投诉
+            </a>
+            <a href="#" class="border-right px-2">
+                友情链接
+            </a>
+            <a href="#" class="px-2">
+                客服中心
+            </a>
+        </p>
+        <hr class="border-secondary d-none d-sm-none d-md-block">
+        <p class="text-secondary1 mb-2 d-none d-sm-none d-md-block">
+            <span class="mr-2">客服热线：400-707-9877</span><span class="mr-2">传真：0311-85372800</span
+                class="mr-2"><span>电子邮箱：fuwu@huishoushang.com</span><span
+                class="mr-2">地址：石家庄高新区长江大道168号天山银河广场C座6F</span>
+        </p>
+        <p class="text-secondary1 mb-2">
+            Copyright 2008-2019 HuiShouShang.Com Inc.All Rights Reserved. 回收商网 版权所有
+        </p>
+        <p class="text-secondary1 mb-2 d-none d-sm-none d-md-block">
+            <a href="#" class="text-secondary1">上海二手制冷设备回收</a>
+            <a href="#" class="text-secondary1">上海二手制冷设备回收</a>
+            <a href="#" class="text-secondary1">上海二手制冷设备回收</a>
+        </p>
+        <p class="text-secondary1 mb-0 d-none d-sm-none d-md-block">
+            增值电信业务经营许可证 冀B2-20170010 　冀ICP备09021528号
+        </p>
+    </div>
+</div>
 
 <!-- *********************************************************js************************************************ -->
 <script src="js/jquery-3.3.1.min.js"></script>
@@ -109,17 +309,17 @@
 <script src="js/qiMain.js"></script>
 <script>
     // load方法导入top nav link foot部分
-    $(function () {
-        $(".header_Div").load("_header_Div.html", function () {
-            $.getScript("js/qiMain.js");
-        })
-        $(".company_state").load("_company_state.html")
-        $(".right_xq").load("_right_xq.html")
-        $(".recommend_Div").load("_recommend.html")
-        $(".message_a").load("_message_a.html")
-        $(".link_Div").load("_link.html")
-        $(".foot_Div").load("_footer.html")
-    })
+    // $(function () {
+    //     $(".header_Div").load("_header_Div.html", function () {
+    //         $.getScript("js/qiMain.js");
+    //     })
+    //     $(".company_state").load("_company_state.html")
+    //     $(".right_xq").load("_right_xq.html")
+    //     $(".recommend_Div").load("_recommend.html")
+    //     $(".message_a").load("_message_a.html")
+    //     $(".link_Div").load("_link.html")
+    //     $(".foot_Div").load("_footer.html")
+    // })
 </script>
 </body>
 
