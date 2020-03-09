@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <title>河北中野绣花机有限责任公司</title>
+    <meta name="Keywords" content="河北中野绣花机有限责任公司" />
+    <meta name="Description" content="河北中野绣花机有限责任公司" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/icons/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="css/layout.css" rel="stylesheet" type="text/css">
+
+</head>
+<!-- 导航栏 header -->
+<div class="header_Div"></div>
+<!-- 导航遮罩 -->
+<div class="show_bg dis-n"></div>
+<!-- 主体大头部 title -->
+<div class="content_Titel w-100 bg-ce1 text-primary1 py-4 border-top border-warning">
+    <div class="container pl-4">
+        <h2 class="mb-0">公司简介</h2>
+        <span class="iconfont icon-shiliangzhinengduixiang3 text-warning1 d-none d-md-inline-block"></span>
+        <nav aria-label="breadcrumb" class="w-75 d-none d-md-inline-block">
+            <ol class="breadcrumb  mb-0 pl-0">
+                <li class="breadcrumb-item"><a href="#">当前位置：</a></li>
+                <li class="breadcrumb-item"><a href="#">首页 </a></li>
+                <li class="breadcrumb-item active" aria-current="page">公司简介</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- 主体部分 content -->
+<div class="Newscontent_Body container mt-4">
+    <div class="row">
+        <div class="container_Left col-md-9">
+            <div class="content_xq p-4 text-justify mb-3 text-c5">
+                李家庄本来是一个名不见经传的普通山村，在解放战争时期，随着中共中央进驻西柏坡和“五一口号”的发布，小山村很快“沸腾”起来，在中国统一战线史上留下了光辉的一页。中央统战部在这里恢复成立，各民主党派和无党派民主人士在这里聚集，我国多党合作和政治协商制度在这里诞生，中国共产党和各民主党派老一辈领导人在这里共商建国大计。这片红色的土地，见证了中国统一战线的历史跨越，记录了许多生动感人、彪炳史册的统战实践。
+                李家庄在发展生态旅游过程中，注意挖掘红色文化资源，使村庄更有内涵，更有魅力。他们将中央统战部旧址与西柏坡周边红色资源通盘考虑，整体规划开发。通过深入调查研究、进村入户走访，详实了解中央统战部在李家庄时期的办公生活情景、机关布局，在组织专家充分论证的基础上，形成了中央统战部旧址扩建改造方案。按照“尊重历史、修旧如旧、拓展功能”的原则，建设了展览区、中央统战部办公区、民主人士接待站、中央统战部领导和民主人士故居等。记者采访时，在中央统战部旧址纪念馆见到了不少来自重庆、贵州、山西的访客，他们不光到了西柏坡，也到这里虔诚参访，寻找初心和力量。据工作人员介绍，目前，纪念馆游客接待量不断攀升，已达每月2万余人次。
+                平山县岗南镇党委书记李建明说，李家庄的典型意义，就在于是乡村振兴的成功典范，同时也实践了平山西柏坡片区“革命圣地、红色乡村、乡村风情、城市品位”的建设理念。目前，岗南镇正和村里抓紧建设村北的大石堂山步游道、策划开发特色旅游产品、提升游客夜间休闲娱乐项目，他们的目标是不光要让游客来得了，还要让游客住得久、忘不了。“我们要继续发挥李家庄的资源优势，在美丽乡村的基础上，把李家庄建设得更加富裕、文明、宜居，让乡亲们的生活越来越红火。”
+                <img src="images/about_img.jpg" class="img-fluid w-75 d-block mx-auto pt-4" alt="">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="right_xq py-4 px-3"></div>
+            <div class="company_state bg-light mt-3"></div>
+            <div class="message_a"></div>
+        </div>
+    </div>
+</div>
+<!-- 精品推荐 -->
+<div class="recommend_Div container border-info shadow py-2"></div>
+<!-- 友情链接 link -->
+<div class="link_Div container py-4 d-none d-sm-none d-md-block"></div>
+<!-- 网页尾部foot -->
+<div class="foot_Div"></div>
+
+<!-- *********************************************************js************************************************ -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/qiMain.js"></script>
+<script>
+    // load方法导入top nav link foot部分
+    $(function () {
+        $(".header_Div").load("_header_Div.html", function () {
+            $.getScript("js/qiMain.js");
+        })
+        $(".company_state").load("_company_state.html")
+        $(".right_xq").load("_right_xq.html")
+        $(".recommend_Div").load("_recommend.html")
+        $(".message_a").load("_message_a.html")
+        $(".link_Div").load("_link.html")
+        $(".foot_Div").load("_footer.html")
+    })
+</script>
+
+</body>
+
+</html>
